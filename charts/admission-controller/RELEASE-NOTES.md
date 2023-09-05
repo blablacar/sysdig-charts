@@ -1,5 +1,5 @@
 # What's Changed
 
-### Documentation
-- **admission-controller, cluster-scanner, registry-scanner, cloud-connector, node-analyzer, rapid-response, sysdig-deploy, agent** [df733e62](https://github.com/sysdiglabs/charts/commit/df733e6294eae1967197e3521473a5fab0282b67): update maintainers list ([#1283](https://github.com/sysdiglabs/charts/issues/1283))
-#### Full diff: https://github.com/sysdiglabs/charts/compare/admission-controller-0.12.2...admission-controller-0.12.3
+### Chores
+- **admission-controller** [ee16dabf](https://github.com/sysdiglabs/charts/commit/ee16dabfdca8128699794e3a0028fc24c519e41d): bump version to v3.9.27 ([#1325](https://github.com/sysdiglabs/charts/issues/1325))
+#### Full diff: https://github.com/sysdiglabs/charts/compare/admission-controller-0.13.6...admission-controller-0.13.7

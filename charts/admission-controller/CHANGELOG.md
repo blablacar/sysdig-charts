@@ -10,6 +10,33 @@ Manual edits are supported only below '## Change Log' and should be used
 exclusively to fix incorrect entries and not to add new ones.
 
 ## Change Log
+# v0.13.7
+### Chores
+* **admission-controller** [ee16dabf](https://github.com/sysdiglabs/charts/commit/ee16dabfdca8128699794e3a0028fc24c519e41d): bump version to v3.9.27 ([#1325](https://github.com/sysdiglabs/charts/issues/1325))
+# v0.13.6
+### Bug Fixes
+* **admission-controller** [d25c4d71](https://github.com/sysdiglabs/charts/commit/d25c4d712a4a2b6839404368db67108113138245): Use EKS Terraform friendly ports ([#1315](https://github.com/sysdiglabs/charts/issues/1315))
+# v0.13.5
+### New Features
+* **admission-controller** [08aacd04](https://github.com/sysdiglabs/charts/commit/08aacd04c4ad67baa5ab041bcae658e1a1173a3e): support policies for worker ([#1318](https://github.com/sysdiglabs/charts/issues/1318))
+# v0.13.4
+### New Features
+* **admission-controller** [640fa2e8](https://github.com/sysdiglabs/charts/commit/640fa2e83bbb989eef40cc565555a0b5ff4c65dc): Add support for worker skiptls ([#1317](https://github.com/sysdiglabs/charts/issues/1317))
+# v0.13.3
+### New Features
+* **admission-controller** [60074372](https://github.com/sysdiglabs/charts/commit/60074372b0970726b1fe100853be7d7ffb01bdef): add watch job permission ([#1312](https://github.com/sysdiglabs/charts/issues/1312))
+# v0.13.2
+### New Features
+* **admission-controller** [36e87076](https://github.com/sysdiglabs/charts/commit/36e87076af520a0b6becfdf8eeff15b46bed6803): Add watch permission for AC ([#1303](https://github.com/sysdiglabs/charts/issues/1303))
+# v0.13.1
+### Bug Fixes
+* **admission-controller** [616cad33](https://github.com/sysdiglabs/charts/commit/616cad33605006718b729187bbf621e5546d5fe1): Restore DRY_RUN env in config map, used by legacy AC ([#1304](https://github.com/sysdiglabs/charts/issues/1304))
+# v0.13.0
+### New Features
+* **admission-controller** [b9ab5aee](https://github.com/sysdiglabs/charts/commit/b9ab5aee6521d95aaba8b004b17807c811117122): Add KSPM Admission Controller to helm chart ([#1214](https://github.com/sysdiglabs/charts/issues/1214))
+# v0.12.4
+### New Features
+* **admission-controller** [ffa2c439](https://github.com/sysdiglabs/charts/commit/ffa2c439bd0a1a76443dc41439f048a2fc41e016): internal test ([#1297](https://github.com/sysdiglabs/charts/issues/1297))
 # v0.12.3
 ### Documentation
 * **admission-controller, cluster-scanner, registry-scanner, cloud-connector, node-analyzer, rapid-response, sysdig-deploy, agent** [df733e62](https://github.com/sysdiglabs/charts/commit/df733e6294eae1967197e3521473a5fab0282b67): update maintainers list ([#1283](https://github.com/sysdiglabs/charts/issues/1283))
